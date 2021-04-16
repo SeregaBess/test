@@ -7,19 +7,19 @@ const config = {
     sass: `${srcPath}/scss`,
     js: `${srcPath}/js`,
     fonts: `${srcPath}/assets/fonts`,
-    image: `${srcPath}/assets/images`,
-    iconMono: `${srcPath}/assets/mono`,
-    iconMulti: `${srcPath}/assets/multi`,
+    images: `${srcPath}/assets/images`,
+    iconsMono: `${srcPath}/assets/icons/mono`,
+    iconsMulti: `${srcPath}/assets/icons/multi`,
     pug: `${srcPath}/pug`,
   },
 
   dest: {
     root: destPath,
     html: destPath,
-    css: `${srcPath}/css`,
-    js: `${srcPath}/js`,
-    fonts: `${srcPath}/fonts`,
-    images: `${srcPath}/images`,
+    css: `${destPath}/css`,
+    js: `${destPath}/js`,
+    fonts: `${destPath}/fonts`,
+    images: `${destPath}/images`,
   },
 
   setEnv() {
