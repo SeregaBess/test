@@ -12,7 +12,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commint": "lint-steged"
+      "pre-commint": "lint-staged"
     }
   },
   "keywords": [
