@@ -1,0 +1,39 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Gulp test install",
+  "scripts": {
+    "dev": "gulp watch",
+    "build:dev": "gulp build",
+    "build:prod": "gulp build --prod"
+  },
+  "lint-staged": {
+    "*.js": "eslint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commint": "lint-steged"
+    }
+  },
+  "keywords": [
+    "gulp",
+    "js",
+    "sass",
+    "pug",
+    "linters"
+  ],
+  "author": "SeregaBess",
+  "license": "WTFPL",
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/eslint-parser": "^7.13.14",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/register": "^7.13.14",
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "gulp": "^4.0.2",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4"
+  }
+}
